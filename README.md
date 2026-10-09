@@ -1,32 +1,32 @@
 # Mon RPG Godot 4
 
-Ce projet contient un petit RPG 2D de base inspiré de Pokémon/Zelda.
-
 ## Lancer le jeu
 
 1. Ouvrir Godot 4
-2. Cliquer sur "Open Project"
-3. Sélectionner le dossier du projet
-4. Cliquer sur Play
+2. Ouvrir le projet depuis ce dossier
+3. Cliquer sur Play
 
 ## Contrôles
 
-- ZQSD / flèches : déplacement
+- ZQSD / flèches : bouger
 - Espace : attaquer
-- H : utiliser une potion
+- H : potion
+- E : interagir avec le marchand
 
-## Ce que contient le projet
+## Ce que contient la version actuelle
 
 - personnage principal
-- ennemis qui se déplacent
-- HUD avec vie / or / potions
-- combat au contact
-- base de jeu jouable
+- ennemis au contact
+- zone de jeu
+- vie, or, potions
+- boutique simple
+- inventaire simple
+- HUD dynamique
 
 ## À venir
 
-- boutique
-- inventaire
-- village / forêt / grotte
+- boutique plus avancée
+- village / forêt / grotte détaillés
 - quêtes
 - sauvegarde
+- sprites pixel art
