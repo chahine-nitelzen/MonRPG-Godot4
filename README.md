@@ -3,30 +3,33 @@
 ## Lancer le jeu
 
 1. Ouvrir Godot 4
-2. Ouvrir le projet depuis ce dossier
-3. Cliquer sur Play
+2. Sélectionner le dossier du projet
+3. Appuyer sur Play
 
 ## Contrôles
 
-- ZQSD / flèches : bouger
+- ZQSD / flèches : déplacement
 - Espace : attaquer
-- H : potion
-- E : interagir avec le marchand
+- H : boire une potion
+- E : interagir / parler / trader
+- Esc : sauvegarder
 
-## Ce que contient la version actuelle
+## Ce que contient le jeu
 
-- personnage principal
-- ennemis au contact
-- zone de jeu
-- vie, or, potions
-- boutique simple
-- inventaire simple
-- HUD dynamique
+- village, forêt, grotte
+- joueur principal
+- ennemis
+- inventaire et or
+- potion et objets
+- quête principale : tuer 3 slimes
+- sauvegarde dans le fichier `user://savegame.json`
+- HUD en jeu
 
 ## À venir
 
-- boutique plus avancée
-- village / forêt / grotte détaillés
-- quêtes
-- sauvegarde
-- sprites pixel art
+- mini-map
+- dialogues plus complets
+- menu d'inventaire à l'écran
+- quêtes supplémentaires
+- boss final
+- sprites pixel-art
