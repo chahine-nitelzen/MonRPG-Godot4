@@ -5,7 +5,9 @@ var max_hp = 30
 var speed = 30.0
 var damage = 8
 var gold_reward = 10
+var xp_reward = 15
 var player = null
+var enemy_name = "Enemy"
 
 @onready var progress = $ProgressBar
 
@@ -22,13 +24,14 @@ func _physics_process(delta):
 		return
 
 	var dist = global_position.distance_to(player.global_position)
-	if dist < 80:
+	if dist < 100:
 		var direction = (player.global_position - global_position).normalized()
 		velocity = direction * speed
 		move_and_slide()
 		if dist < 30 and hp > 0:
-			player.take_damage(damage)
-			print("Ennemi attaque !")
+			var dmg = damage + randi() % 3
+			player.take_damage(dmg)
+			print(enemy_name + " attaque pour ", dmg, " dégâts")
 	update_health_bar()
 
 func update_health_bar():

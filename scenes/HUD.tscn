@@ -9,6 +9,8 @@ script = ExtResource("1_0p9n7")
 anchors_preset = 0
 offset_left = 20.0
 offset_top = 20.0
-offset_right = 340.0
+offset_right = 600.0
 offset_bottom = 120.0
-text = "PV: 100/100   Or: 50   Potions: 3"
+text = "Niveau 1 | PV: 100/100 | Or: 100 | XP: 0/100
+Zone: Village | Quête: Enquête sur le dragon (0/5)
+I: Inventaire"

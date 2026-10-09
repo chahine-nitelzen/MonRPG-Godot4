@@ -16,10 +16,12 @@ polygon = PackedVector2Array(-12, -12, 12, -12, 12, 12, -12, 12)
 shape = SubResource("RectangleShape2D_8b0kq")
 
 [node name="Label" type="Label" parent="."]
-offset_left = -60.0
+offset_left = -80.0
 offset_top = -50.0
-offset_right = 60.0
+offset_right = 80.0
 offset_bottom = -20.0
-text = "PV: 100 / 100\nOr: 50\nPotion: 3"
+text = "PV: 100 / 100
+Or: 100
+Niveau: 1"
 horizontal_alignment = 1
 vertical_alignment = 1
