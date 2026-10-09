@@ -1,0 +1,14 @@
+[gd_scene load_steps=2 format=3 uid="uid://pmr1g2n7u3p9"]
+
+[ext_resource type="Script" path="res://scripts/HUD.gd" id="1_0p9n7"]
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource("1_0p9n7")
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 0
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 340.0
+offset_bottom = 120.0
+text = "PV: 100/100   Or: 50   Potions: 3"
